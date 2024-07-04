@@ -7,3 +7,7 @@ nav:
 plugins:
   - search
   - mkdocstrings
+  - gen-files:
+      scripts:
+        - scripts/basic_script.py
+          
