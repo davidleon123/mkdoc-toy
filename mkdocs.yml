@@ -1,0 +1,9 @@
+site_name: My Docs
+
+nav:
+  - index.md
+  - "My page": page1.md
+
+plugins:
+  - search
+  - mkdocstrings
