@@ -12,3 +12,7 @@ class MyClass:
     def method_c(self):
         """Print C!"""
         print("C!")
+
+def my_function():
+    """Print function!"""
+    print("function!")

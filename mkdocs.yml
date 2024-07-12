@@ -3,7 +3,9 @@ site_name: My Docs
 nav:
   - index.md
   - "My page": page1.md
-
+  - API:
+    - "myfunction": api/myfunction.md
+    #- api/myfunction.md
 plugins:
   - search
   - mkdocstrings
