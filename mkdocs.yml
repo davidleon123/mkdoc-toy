@@ -4,8 +4,10 @@ nav:
   - index.md
   - "My page": page1.md
   - API:
-    - "myfunction": api/myfunction.md
-    #- api/myfunction.md
+    #- api/*
+    #- "myfunction": api/myfunction.md
+    - api/myfunction.md
+    - api/myfunction2.md
 plugins:
   - search
   - mkdocstrings
