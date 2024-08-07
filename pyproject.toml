@@ -6,3 +6,4 @@ build-backend = "setuptools.build_meta"
 name = "mkdoc_toy"
 version = "0.1.0"
 description = "A toy project for mkdoc"
+dependencies = ["pytest", "pytest-cov", "pytest-codspeed"]
